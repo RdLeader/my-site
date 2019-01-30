@@ -1,3 +1,25 @@
 body {
-  background-color: blue;
+  background-color: #eeeeee;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.top {
+  background-color: #303841;
+}
+
+.mid {
+  background-color: #00adb5;
+}
+
+.bot {
+  background-color: #ff5722;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
 }
