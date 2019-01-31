@@ -1,14 +1,26 @@
 body {
-  background-color: #eeeeee;
   margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
   margin-top: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+}
+
+h3 {
+  font-family: 'Dosis', sans-serif;
 }
 
 .top {
-  background-color: #303841;
+  background-color: lightskyblue;
+  padding-top: 100px;
+  position: relative;
 }
 
 .mid {
@@ -22,4 +34,20 @@ h1 {
 .square {
   height: 200px;
   width: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 20%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+}
+
+.mountain {
+  display: block;
+  margin: 0 auto;
 }
