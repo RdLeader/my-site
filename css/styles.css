@@ -1,34 +1,43 @@
 body {
+  font-family: 'Raleway', sans-serif;
   margin: 0;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-  margin-top: 0;
+  color: #66BFBF;
   font-family: 'Indie Flower', cursive;
+  font-size: 5.625rem; /* 16px = 100% = 1em = 1rem . % and em are inherited */
+  margin: 50px auto 0 auto;
 }
 
 h2 {
-  font-family: 'Dosis', sans-serif;
+  color: #66BFBF;
+  font-family:'Dosis', sans-serif;
+  font-size: 2.5rem;
 }
 
 h3 {
+  color: #11999E;
   font-family: 'Dosis', sans-serif;
 }
 
-.top {
+a {
+  color: #11999E;
+}
+
+.top-container {
   background-color: lightskyblue;
   padding-top: 100px;
   position: relative;
 }
 
-.mid {
-  background-color: #00adb5;
+.mid-container {
+
 }
 
-.bot {
-  background-color: #ff5722;
+.bot-container {
+
 }
 
 .square {
@@ -50,4 +59,31 @@ h3 {
 .mountain {
   display: block;
   margin: 0 auto;
+}
+
+.skill-img {
+  width: 25%;
+}
+
+.web-dev-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.cooking-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+}
+
+
+.subtitle {
+  font-weight: normal;
+  margin-top: 20px;
 }
